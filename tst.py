@@ -52,7 +52,7 @@ def print_all_name_by_country():
     '''print all the name storted by country'''
     db = sqlite3.connect(DATABASE)
     cursor = db.cursor()
-    sql = "Select * from carORDER BY country DESC;"
+    sql = "Select * from car ORDER BY country DESC;"
     cursor.execute(sql)
     results = cursor.fetchall()
     #loop through all the results
