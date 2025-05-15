@@ -6,8 +6,6 @@ import sqlite3
 
 
 
-
-
 DATABASE = "car.db"
 
 
