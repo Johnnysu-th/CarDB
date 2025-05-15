@@ -1,8 +1,6 @@
 import sqlite3
 
-
 DATABASE = "car.db"
-
 
 def print_all_name():
     '''print all the name nicely'''
